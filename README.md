@@ -54,6 +54,9 @@ Dependencies
  * FontConfig must be installed -  `apt-get/yum install fontconfig`
  * FreeType is also required - `apt-get/yum install freetype*`
 
+Additional Tasks Regarding Fonts
+=====
+ * Copy a bunch of fonts to `/usr/share/fonts` or a subfolder ( like `/usr/share/fonts/TTF` ) and then run `sudo fc-cache -fv`.
 
 Thanks
 ====
